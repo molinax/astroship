@@ -67,10 +67,8 @@ a {
   opacity: .9;
 }
 
-.nav-list-item {
-  display: inline-flex;
-  align-items: center;
-  gap: .2rem;
+.nav-list-item-arrow {
+  margin-bottom: -2px;
 }
 
 @media (width > 960px) {

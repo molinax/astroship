@@ -12,15 +12,11 @@ const NavMobileList = ({ data }) => {
   return (
     <ul className={`${navMobileList} flex-col`}>
       {data.map(({ href, content, badge, children }, i) => (
-        <li
-          key={i}
-          onClick={children && toggleListOpened}
-          className="nav-list-item"
-        >
+        <li key={i} onClick={children && toggleListOpened}>
           <a href={href} className={`nav-item ${badge && 'nav-item__badge'}`}>
             {content} {badge && <Badge content={badge} />}
           </a>
-          {children && <RiArrowDownSLine />}
+          {children && <RiArrowDownSLine className="nav-list-item-arrow" />}
           {children && (
             <div className={navMobileChildrenList} style={showChildrenList}>
               <NavMobileList data={children} />

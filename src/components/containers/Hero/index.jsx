@@ -1,6 +1,7 @@
 import { RiDownloadCloudFill, RiGithubFill } from 'react-icons/ri'
 import Button from '../../ui/Button'
 import style from './Hero.module.css'
+import astronaut from '../../../../public/astro-hover.webp'
 
 const Hero = () => {
   const { hero, heroArticle, heroCtaContainer, heroBtnContent, heroImage } = style
@@ -29,7 +30,7 @@ const Hero = () => {
         </div>
       </article>
       <img
-        src="../../../../public/astro-hover.webp"
+        src={astronaut}
         alt="Astronaut cartoon style in the moon"
         className={heroImage}
       />
