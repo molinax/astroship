@@ -1,0 +1,17 @@
+.navDesktop {
+  display: none;
+  flex-grow: 1;
+}
+
+.navDesktopCtaContainer {
+  display: flex;
+  justify-content: end;
+  flex: none;
+  gap: 1rem;
+}
+
+@media (width > 1000px) {
+  .navDesktop {
+    display: flex;
+  }
+}

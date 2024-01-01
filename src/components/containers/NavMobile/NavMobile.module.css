@@ -1,0 +1,10 @@
+.navMobile {
+  gap: 3rem;
+  padding: 1rem 0;
+}
+
+.navMobileCtaContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: .5rem;
+}

@@ -1,0 +1,35 @@
+.cta {
+  gap: 1.5rem;
+
+  background-color: var(--dark);
+  text-align: center;
+  padding: 2rem;
+  border-radius: .6rem;
+  max-width: 64rem;
+  margin-inline: auto;
+  color: var(--light-slate)
+}
+
+.cta h2 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.cta p {
+  max-width: 32rem;
+  margin-inline: auto;
+}
+
+.cta button {
+  align-self: center;
+}
+
+@media (width > 960px) {
+  .cta {
+    padding: 5rem;
+  }
+  
+  .cta h2 {
+    font-size: 3rem;
+  }
+}

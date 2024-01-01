@@ -1,0 +1,59 @@
+.characteristics {
+  gap: 2.5rem;
+}
+
+.characteristicsHeader h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.characteristicsHeader p {
+  padding: 1rem 0;
+}
+
+.characteristicsCardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+@media (width > 768px) {
+  .characteristicsHeader h2 {
+    font-size: 2.5rem;
+  } 
+}
+
+@media (width > 960px) {
+  .characteristicsHeader h2 {
+    font-size: 3rem;
+  }
+}
+
+.characteristicsMediaContainer {
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+
+  margin-top: 4rem;
+}
+
+.characteristicsMediaContainer div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.characteristicsMediaContainer svg {
+  color: black;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+@media (width > 768px) {
+  .characteristicsMediaContainer svg {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+}

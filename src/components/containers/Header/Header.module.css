@@ -1,0 +1,21 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerIcon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media (width > 1000px) {
+  .headerIcon {
+    display: none;
+  }
+
+  .headerContainer {
+    justify-content: start;
+    gap: 3rem;
+  }
+}

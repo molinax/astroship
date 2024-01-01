@@ -1,0 +1,72 @@
+.heroArticle {
+  gap: 1.5rem;
+}
+
+.heroArticle h1 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.heroArticle p {
+  max-width: 36rem;
+}
+
+.heroCtaContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.heroBtnContent {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.heroBtnContent svg {
+  fill: currentColor;
+  font-size: 1.3rem;
+}
+
+.heroImage {
+  display: none;
+  margin-inline: auto;
+  margin-top: 2rem;
+  max-height: 450px;
+  object-fit: contain;
+}
+
+@media (width > 768px) {  
+  .heroCtaContainer {
+    flex-direction: row;
+  }
+
+  .heroArticle h1 {
+    font-size: 3.5rem;
+  }
+
+  .heroImage {
+    display: block;
+  }
+}
+
+@media (width > 1000px) {
+  .hero {
+    display: flex;
+    align-items: center;
+  }
+
+  .heroArticle h1 {
+    font-size: 4rem;
+  }
+
+  .heroArticle,
+  .heroImage {
+    width: 50%;
+  }
+
+  .heroImage {
+    margin-top: 0;
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,12 @@
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  font-size: .8rem;
+}
+
+.footer span {
+  color: var(--dark);
+  font-weight: 600;
+}

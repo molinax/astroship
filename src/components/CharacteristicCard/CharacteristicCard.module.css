@@ -1,0 +1,19 @@
+.characteristicCard {
+  display: flex;
+  gap: 1rem;
+}
+
+.characteristicCardIconContainer {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  
+  padding: .5rem;
+  background: #000;
+  border-radius: 100%;
+  color: white;
+}
+
+.characteristicCard p {
+  padding: .6rem 0;
+}
